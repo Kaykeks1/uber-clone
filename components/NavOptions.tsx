@@ -8,7 +8,7 @@ import type { StackNavigationProp } from '@react-navigation/stack';
 const data = [
   { id: 123, title: "Get a ride", image: "http://links.papareact.com/3pn", screen: "Map" },
   { id: 456, title: "Order food", image: "http://links.papareact.com/28w", screen: "EatScreen" }
-]
+];
 
 type StackParamList = {
   Map: undefined
